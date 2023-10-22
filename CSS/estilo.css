@@ -12,7 +12,7 @@ body {
 }
 /* Parte superior de la pagina */
 header {
-    background-color: rgb(149, 33, 33);
+    background-color: rgb(215, 35, 35);
     color: white;
     text-align: center;
     padding: 50px 0px 100px 0px;
@@ -21,9 +21,39 @@ header {
 }
 
 nav{
-    text-align: center;
-    margin-bottom: 100px;
+    
+        text-align: center;
+        color: rgb(214, 20, 20);
+        margin-bottom: 40px;
+        font-weight: bold;
+        font-size: large   ;
+        text-decoration:none;
+        color: rgb(188, 29, 29);
+        background-color: rgb(52, 176, 129);
+        padding: 5px;
+        border: 2px solid black;
+        border-radius: 20px;
     }
+.menu_a {
+    font-size: 20px;
+    padding: 10px 20px;
+    color: rgb(14, 30, 30);
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+}
+a:link {
+    color: rgb(235, 243, 98);
+}
+a:hover {
+    text-decoration: rgb(20, 19, 23);
+    font-size: 24px;
+    background: palevioletred;
+    color: white;
+}
+
+A:active {
+    background: rgb(153, 75, 222);
+}
 
 /* Parte de registro de pagina */
 
@@ -315,7 +345,8 @@ footer p {
     }
 
     footer {
-        margin: 5px 5px 30px 5px;
+        
+        padding: 5px 1px 5px 10px;
     }
 }
 
