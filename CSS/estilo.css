@@ -21,9 +21,8 @@ header {
 }
 
 nav{
-    
         text-align: center;
-        color: rgb(214, 20, 20);
+        color: rgb(111, 221, 124);
         margin-bottom: 40px;
         font-weight: bold;
         font-size: large   ;
@@ -32,7 +31,7 @@ nav{
         background-color: rgb(52, 176, 129);
         padding: 5px;
         border: 2px solid black;
-        border-radius: 20px;
+       
     }
 .menu_a {
     font-size: 20px;
@@ -40,9 +39,13 @@ nav{
     color: rgb(14, 30, 30);
     text-decoration: none;
     margin: 10px 10px 10px 10px;
+    border-radius: 20px;
 }
 a:link {
-    color: rgb(235, 243, 98);
+    color: rgb(30, 31, 11);
+    border: black;
+    border-radius: red  ;
+    border-bottom: #12B1D1;
 }
 a:hover {
     text-decoration: rgb(20, 19, 23);
