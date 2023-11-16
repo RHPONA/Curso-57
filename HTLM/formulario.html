@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TU TREK</title>
-    <link rel="stylesheet" href="./CSS/estilo.css">
+    <link rel="stylesheet" href="../CSS/estilo.css">
 
     <!-- Fuente sacada de google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,19 +42,19 @@
         <section>
             <!-- esta es una seccion que tiene 3 articulos -->
             <article class="imagenes">
-                <img class="x" src="./imagenes/TREK.jpg" alt="esta es una imagen de una bicicleta trek">
-                <img class="x" src="./imagenes/TREK1.jpg" alt="esta es una imagen de tu trek">
-                <img class="x" src="./imagenes/TREK4.jpg" alt="trek para hacer terapia">
-                <img class="x" src="./imagenes/TREK7.jfif" alt="trek para hacer terapia">
+                <img class="x" src="../imagenes/TREK.jpg" alt="esta es una imagen de una bicicleta trek">
+                <img class="x" src="../imagenes/TREK1.jpg" alt="esta es una imagen de tu trek">
+                <img class="x" src="../imagenes/TREK4.jpg" alt="trek para hacer terapia">
+                <img class="x" src="../imagenes/TREK7.jfif" alt="trek para hacer terapia">
             </article>
     <!-- Formulario -->
-    <form id="formulario" action="" method="post">
+    <form id="formulario" action="" method="get">
         <h3>Contáctanos!</h3>
         <div>
         <fieldset>
             <legend>Datos Basicos</legend>
             <label for="name">Nombre: </label>
-            <input type="text" id= "nombre" placeholder="Escribe tu nombre"><br>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required><br>
             <label for="name">Apellido:</label>
             <input type="text" id= "Apellido" placeholder="Escribe tu Apellido" required> <br>
             <br>
@@ -78,8 +78,9 @@
             <input type="checkbox">
         </fieldset>
         </div>
-        <input class="main__boton" type="submit" value="Enviar">
+        <input class="main__boton" type="submit" name="btn" value="Enviar">
     </form>
+    
     <!-- Pie de pagina -->
     <footer>
         <p>Esta es una página dedicada exclusivamente a la venta de bicibletas trek "no es solo una bicileta, sos vos disfrutando de una trek en cualquier lugar donde te encuentres"al mundo del diseño, la decoración, la arquitectura y el arte. Una apuesta por mostrar diferentes espacios arquitectónicos dentro de la ciudad de Buenos Aires y todo ello sin renunciar al sentido del humor.</p>
@@ -87,5 +88,6 @@
         <p> RHPONA tu mejor diseñador de paginas web </p>
         <p>© 2023 | TREK 5.0</p>
     </footer>
+    <script src ="./SCRIP/intentos.js"></script>
 </body>
 </html>
