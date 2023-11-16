@@ -29,7 +29,21 @@ console.log("el total de la promocion es: " + montaña);
 console.log("el total de la super promocion es: " + promo);
 
 
+//SE VAN A UTILIZAR LOS OPERADORES LOGICOS
+var comprador = 18;
+var tarjeta = true
+// con AND
+console.log(comprador >= 18);
+console.log(comprador >= 18 && tarjeta == true);
 
+// operacon con OR
+console.log(comprador >= 18 || tarjeta == true);
+
+//operacion con not
+var edad = 18
+var dni = !true;
+
+console.log(dni);
 
 /*(function(){
 
