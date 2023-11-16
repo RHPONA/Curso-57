@@ -220,9 +220,8 @@ A:active {
 }
 
 .main__boton:hover {
-    color: rgb(32, 176, 176);
-    background-color: rgb(16, 14, 14);
-    box-shadow: 3px 3px 2px 15px rgba(0, 0, 0, 0.3);
+    background-color: 1px
+    box-shadow: 1px
 }
 
 /* esta funcion es para seleccionar todo adentro de main */
